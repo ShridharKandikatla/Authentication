@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="http://localhost:3000/?" target="_parent">
+        <img src="https://res.cloudinary.com/jerrick/image/upload/v1576232719/5df3670f2d2382001c9e6076.jpg" alt="">
+        </a>
+        <h1 style="margin-left: 5%;">EdMax</h1>
+        <hr>
+    </header>
+    <h2>Create a new account</h2>
+    <form action="/register" method="post">
+        <label for="email">Email</label>
+        <input type="email" name="username" placeholder="Enter Email" required autocomplete="off">
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="Enter Password" required>
+        
+        <button type="submit">Register</button>
+    </form>
+    <form action="/" method="get">
+        <button type="submit">Already a User</button>
+    </form>
+<%- include('footer'); -%>

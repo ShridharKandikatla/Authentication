@@ -1,0 +1,213 @@
+/* Header */
+header {
+    background-color: #142457;
+    padding: 20px;
+    text-align: left;
+    font-family: cursive;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+}
+
+h2 {
+    margin: 0;
+    /* font-size: 36px; */
+    padding-top: 30px;
+    font-weight: bold;
+    color: #F92D45;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Footer */
+footer{
+    /* background:   radial-gradient(circle, #FAFAFA, #1D242C); */
+    /* position: absolute; */
+    background-color: #142457;
+    margin-top: 1%;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    margin-bottom: 1%;
+    font-size: 14px;
+    color: #fff;
+}
+
+footer img{
+    margin-top:1%;
+    width: 30px;
+    height: 30px;
+}
+
+header img{
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+/* Body */
+body {
+    /* background: url("https://images.hdqwalls.com/download/black-gradient-b9-1920x1080.jpg")  no-repeat center center local; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #E7E7E7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Form */
+form {
+    /* background: url("https://media.istockphoto.com/id/1298777114/photo/abstract-background-with-black-wavy-stripes-abstract-cut-paper-stripes-soft-light-effect.jpg?b=1&s=170667a&w=0&k=20&c=VhlfQjf0QFuCkvHe7g6S-OWgRHW16wDej2lELXovNFg=")  no-repeat center center local; */
+    /* background: url("https://images.hdqwalls.com/download/black-gradient-b9-1920x1080.jpg")  no-repeat center center local; */
+    background-color: #E7E7E7;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 50px auto;
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgb(105, 101, 101);
+}
+
+/* Inputs */
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Submit button */
+button[type="submit"] {
+    width: 100%;
+    background-color: #51AEB0;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #142457;
+    transition: 0.7s;
+}
+
+/* Label */
+label {
+font-size: 14px;
+font-weight: bold;
+color: #fff;
+margin-bottom: 5px;
+display: block;
+}
+/* Link */
+a:not(#logo){
+color: #0066cc;
+text-decoration: none;
+margin-left: 2%;
+font-size: 16px;
+}
+    
+a:hover {
+text-decoration: underline;
+}
+
+/* Error message */
+.error {
+color: red;
+font-size: 12px;
+margin-top: 5px;
+}
+
+ul{
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #142457;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    margin: 1px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    background-color: #51AEB0;
+    margin: 1px;
+    border-radius: 10px;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #51AEB0;
+    border-radius: 10px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    margin-top: 11px;
+    background-color: #E7E7E7;
+    min-width: 160px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #E7E7E7;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

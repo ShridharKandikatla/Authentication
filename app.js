@@ -91,7 +91,7 @@ app.post("/", function (req, res) {
       } else {
          if (bcrypt.compareSync(password, user.password)) {
             req.session.userId = user._id;
-            req.session.cookie.expires = new Date(Date.now() + 30 * 60 * 1000); // expires in 30 min
+            // req.session.cookie.expires = new Date(Date.now() + 30 * 60 * 1000); // expires in 30 min
             res.render("display", { username: username });
          } else {
             res.render("error", { type: "Invalid Password" });

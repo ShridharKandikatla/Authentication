@@ -1,19 +1,32 @@
 <%- include('header') -%>
-    <h2>Login Form</h2>
+<h2>Login Form</h2>
 
-    <form action="/" method="post">
-        <label for="text">Email</label>
-        <input type="email" name="username" placeholder="Enter Email" required autocomplete="off">
-        <br><br>
-        <label for="password">Password</label>
-        <input type="password" name="password" placeholder="Enter Password" required>
-        <br><br>
-        <button type="submit">Login</button>
-        <a href="http://localhost:3000/forgot-password">Forgot Password?</a>
-    </form>
+<form action="/" method="post">
+   <label for="text">Email</label>
+   <input
+      type="email"
+      name="username"
+      placeholder="Enter Email"
+      required
+      autocomplete="off"
+   />
+   <br /><br />
+   <label for="password">Password</label>
+   <input
+      type="password"
+      name="password"
+      placeholder="Enter Password"
+      required
+   />
+   <br /><br />
+   <button type="submit">Login</button>
+   <a href="https://authentication-3j5e.onrender.com/forgot-password"
+      >Forgot Password?</a
+   >
+</form>
 
-    <form action="/register" method="get">
-        <button type="submit">New User</button>
-    </form>
+<form action="/register" method="get">
+   <button type="submit">New User</button>
+</form>
 
 <%- include('footer') -%>
